@@ -230,7 +230,7 @@
       "platformName": "GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "Intellivision.json",
