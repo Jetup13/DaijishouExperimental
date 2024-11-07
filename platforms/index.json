@@ -1,5 +1,5 @@
 {
-  "baseUri": "https://raw.githubusercontent.com/Jetup13/DaijishouExperimental/main/platforms/",
+  "baseUri": "https://raw.githubusercontent.com/magneticchen/Daijishou/main/platforms/",
   "platformList": [
     {
       "filename": "3DO.json",
@@ -205,13 +205,6 @@
       "revisionNumber": 4
     },
     {
-      "filename": "Dreamcast.json",
-      "platformName": "Dreamcast",
-      "platformShortname": "dreamcast",
-      "platformUniqueId": "dreamcast",
-      "revisionNumber": 6
-    },
-    {
       "filename": "ElektorTVGamesComputer.json",
       "platformName": "Elektor TV Games Computer",
       "platformShortname": "elektor",
@@ -231,13 +224,6 @@
       "platformShortname": "channelf",
       "platformUniqueId": "channelf",
       "revisionNumber": 5
-    },
-    {
-      "filename": "FamicomDiskSystem.json",
-      "platformName": "Famicom Disk System",
-      "platformShortname": "fds",
-      "platformUniqueId": "fds",
-      "revisionNumber": 4
     },
     {
       "filename": "FlashbackGameEngine.json",
@@ -324,6 +310,27 @@
       "revisionNumber": 4
     },
     {
+      "filename": "NECSuperGrafx.json",
+      "platformName": "NEC SuperGrafx",
+      "platformShortname": "supergrafx",
+      "platformUniqueId": "supergrafx",
+      "revisionNumber": 3
+    },
+    {
+      "filename": "NECTurboGrafx16.json",
+      "platformName": "NEC TurboGrafx-16",
+      "platformShortname": "tg16",
+      "platformUniqueId": "tg16",
+      "revisionNumber": 7
+    },
+    {
+      "filename": "NECTurboGrafxCD.json",
+      "platformName": "NEC TurboGrafx-CD",
+      "platformShortname": "tgcd",
+      "platformUniqueId": "tgcd",
+      "revisionNumber": 6
+    },
+    {
       "filename": "NeoGeo.json",
       "platformName": "Neo Geo",
       "platformShortname": "neogeo",
@@ -394,6 +401,13 @@
       "revisionNumber": 7
     },
     {
+      "filename": "NintendoFamicomDiskSystem.json",
+      "platformName": "Nintendo Famicom Disk System",
+      "platformShortname": "fds",
+      "platformUniqueId": "fds",
+      "revisionNumber": 4
+    },
+    {
       "filename": "NintendoGame&Watch.json",
       "platformName": "Nintendo Game & Watch",
       "platformShortname": "gw",
@@ -427,6 +441,27 @@
       "platformShortname": "gc",
       "platformUniqueId": "gc",
       "revisionNumber": 8
+    },
+    {
+      "filename": "NintendoSFC.json",
+      "platformName": "Nintendo SFC",
+      "platformShortname": "sfc",
+      "platformUniqueId": "sfc",
+      "revisionNumber": 8
+    },
+    {
+      "filename": "NintendoSNES.json",
+      "platformName": "Nintendo SNES",
+      "platformShortname": "snes",
+      "platformUniqueId": "snes",
+      "revisionNumber": 8
+    },
+    {
+      "filename": "NintendoSNESMSU1.json",
+      "platformName": "Nintendo SNES - MSU-1",
+      "platformShortname": "snesmsu1",
+      "platformUniqueId": "snesmsu1",
+      "revisionNumber": 1
     },
     {
       "filename": "NintendoSatellaview.json",
@@ -548,6 +583,13 @@
       "revisionNumber": 4
     },
     {
+      "filename": "SegaDreamcast.json",
+      "platformName": "Sega Dreamcast",
+      "platformShortname": "dreamcast",
+      "platformUniqueId": "dreamcast",
+      "revisionNumber": 6
+    },
+    {
       "filename": "SegaGameGear.json",
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
@@ -573,6 +615,13 @@
       "platformName": "Sega Master System",
       "platformShortname": "master",
       "platformUniqueId": "master",
+      "revisionNumber": 8
+    },
+    {
+      "filename": "SegaMegadrive.json",
+      "platformName": "Sega Megadrive",
+      "platformShortname": "megadrive",
+      "platformUniqueId": "megadrive",
       "revisionNumber": 8
     },
     {
@@ -660,27 +709,6 @@
       "revisionNumber": 1
     },
     {
-      "filename": "SuperGrafx.json",
-      "platformName": "SuperGrafx",
-      "platformShortname": "supergrafx",
-      "platformUniqueId": "supergrafx",
-      "revisionNumber": 3
-    },
-    {
-      "filename": "SuperNintendoEntertainmentSystem.json",
-      "platformName": "Super Nintendo Entertainment System",
-      "platformShortname": "snes",
-      "platformUniqueId": "snes",
-      "revisionNumber": 8
-    },
-    {
-      "filename": "SuperNintendoEntertainmentSystemMSU1.json",
-      "platformName": "Super Nintendo Entertainment System - MSU-1",
-      "platformShortname": "snesmsu1",
-      "platformUniqueId": "snesmsu1",
-      "revisionNumber": 1
-    },
-    {
       "filename": "TI83.json",
       "platformName": "TI-83",
       "platformShortname": "ti83",
@@ -700,20 +728,6 @@
       "platformShortname": "to8",
       "platformUniqueId": "to8",
       "revisionNumber": 1
-    },
-    {
-      "filename": "TurboGrafx16.json",
-      "platformName": "TurboGrafx-16",
-      "platformShortname": "tg16",
-      "platformUniqueId": "tg16",
-      "revisionNumber": 7
-    },
-    {
-      "filename": "TurboGrafxCD.json",
-      "platformName": "TurboGrafx-CD",
-      "platformShortname": "tgcd",
-      "platformUniqueId": "tgcd",
-      "revisionNumber": 6
     },
     {
       "filename": "Uzebox.json",

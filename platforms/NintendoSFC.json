@@ -2,9 +2,9 @@
   "databaseVersion": 14,
   "revisionNumber": 8,
   "platform": {
-    "name": "Super Nintendo Entertainment System",
-    "uniqueId": "snes",
-    "shortname": "snes",
+    "name": "Nintendo SFC",
+    "uniqueId": "sfc",
+    "shortname": "sfc",
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
     "scraperSourceList": [
@@ -28,8 +28,8 @@
   },
   "playerList": [
     {
-      "name": "snes - com.explusalpha.Snes9xPlus",
-      "uniqueId": "snes.com.explusalpha.Snes9xPlus",
+      "name": "sfc - com.explusalpha.Snes9xPlus",
+      "uniqueId": "sfc.com.explusalpha.Snes9xPlus",
       "description": "Supported extensions: bml, bs, bsx, dx2, fig, gb, gbc, gd3, gd7, rom, sfc, smc, st, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|bs|bsx|dx2|fig|gb|gbc|gd3|gd7|rom|sfc|smc|st|swc)$",
       "amStartArguments": "-n com.explusalpha.Snes9xPlus/com.imagine.BaseActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}\n  -t application/zip",
@@ -38,8 +38,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - snes9x",
-      "uniqueId": "snes.ra64.snes9x",
+      "name": "sfc - RetroArch 64 - snes9x",
+      "uniqueId": "sfc.ra64.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -48,8 +48,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - higan_sfc",
-      "uniqueId": "snes.ra64.higan_sfc",
+      "name": "sfc - RetroArch 64 - higan_sfc",
+      "uniqueId": "sfc.ra64.higan_sfc",
       "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO higan_sfc\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -58,8 +58,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - higan_sfc_balanced",
-      "uniqueId": "snes.ra64.higan_sfc_balanced",
+      "name": "sfc - RetroArch 64 - higan_sfc_balanced",
+      "uniqueId": "sfc.ra64.higan_sfc_balanced",
       "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO higan_sfc_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -68,8 +68,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - mednafen_supafaust",
-      "uniqueId": "snes.ra64.mednafen_supafaust",
+      "name": "sfc - RetroArch 64 - mednafen_supafaust",
+      "uniqueId": "sfc.ra64.mednafen_supafaust",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mednafen_supafaust\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -78,8 +78,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - mednafen_snes",
-      "uniqueId": "snes.ra64.mednafen_snes",
+      "name": "sfc - RetroArch 64 - mednafen_snes",
+      "uniqueId": "sfc.ra64.mednafen_snes",
       "description": "Supported extensions: bs, fig, sfc, smc, st.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mednafen_snes\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -88,8 +88,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - snes9x2002",
-      "uniqueId": "snes.ra64.snes9x2002",
+      "name": "sfc - RetroArch 64 - snes9x2002",
+      "uniqueId": "sfc.ra64.snes9x2002",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2002\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -98,8 +98,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - snes9x2005_plus",
-      "uniqueId": "snes.ra64.snes9x2005_plus",
+      "name": "sfc - RetroArch 64 - snes9x2005_plus",
+      "uniqueId": "sfc.ra64.snes9x2005_plus",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2005_plus\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -108,8 +108,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - snes9x2005",
-      "uniqueId": "snes.ra64.snes9x2005",
+      "name": "sfc - RetroArch 64 - snes9x2005",
+      "uniqueId": "sfc.ra64.snes9x2005",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2005\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -118,8 +118,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - snes9x2010",
-      "uniqueId": "snes.ra64.snes9x2010",
+      "name": "sfc - RetroArch 64 - snes9x2010",
+      "uniqueId": "sfc.ra64.snes9x2010",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2010\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -128,8 +128,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes2014_accuracy",
-      "uniqueId": "snes.ra64.bsnes2014_accuracy",
+      "name": "sfc - RetroArch 64 - bsnes2014_accuracy",
+      "uniqueId": "sfc.ra64.bsnes2014_accuracy",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_accuracy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -138,8 +138,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes2014_balanced",
-      "uniqueId": "snes.ra64.bsnes2014_balanced",
+      "name": "sfc - RetroArch 64 - bsnes2014_balanced",
+      "uniqueId": "sfc.ra64.bsnes2014_balanced",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -148,8 +148,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes2014_performance",
-      "uniqueId": "snes.ra64.bsnes2014_performance",
+      "name": "sfc - RetroArch 64 - bsnes2014_performance",
+      "uniqueId": "sfc.ra64.bsnes2014_performance",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_performance\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -158,8 +158,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes_cplusplus98",
-      "uniqueId": "snes.ra64.bsnes_cplusplus98",
+      "name": "sfc - RetroArch 64 - bsnes_cplusplus98",
+      "uniqueId": "sfc.ra64.bsnes_cplusplus98",
       "description": "Supported extensions: sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_cplusplus98\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -168,8 +168,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes",
-      "uniqueId": "snes.ra64.bsnes",
+      "name": "sfc - RetroArch 64 - bsnes",
+      "uniqueId": "sfc.ra64.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -178,8 +178,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes_hd_beta",
-      "uniqueId": "snes.ra64.bsnes_hd_beta",
+      "name": "sfc - RetroArch 64 - bsnes_hd_beta",
+      "uniqueId": "sfc.ra64.bsnes_hd_beta",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_hd_beta\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -188,8 +188,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes_mercury_accuracy",
-      "uniqueId": "snes.ra64.bsnes_mercury_accuracy",
+      "name": "sfc - RetroArch 64 - bsnes_mercury_accuracy",
+      "uniqueId": "sfc.ra64.bsnes_mercury_accuracy",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_accuracy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -198,8 +198,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes_mercury_balanced",
-      "uniqueId": "snes.ra64.bsnes_mercury_balanced",
+      "name": "sfc - RetroArch 64 - bsnes_mercury_balanced",
+      "uniqueId": "sfc.ra64.bsnes_mercury_balanced",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -208,8 +208,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - bsnes_mercury_performance",
-      "uniqueId": "snes.ra64.bsnes_mercury_performance",
+      "name": "sfc - RetroArch 64 - bsnes_mercury_performance",
+      "uniqueId": "sfc.ra64.bsnes_mercury_performance",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_performance\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -218,8 +218,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 64 - mesen-s",
-      "uniqueId": "snes.ra64.mesen-s",
+      "name": "sfc - RetroArch 64 - mesen-s",
+      "uniqueId": "sfc.ra64.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -228,8 +228,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - snes9x",
-      "uniqueId": "snes.ra32.snes9x",
+      "name": "sfc - RetroArch 32 - snes9x",
+      "uniqueId": "sfc.ra32.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -238,8 +238,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - higan_sfc",
-      "uniqueId": "snes.ra32.higan_sfc",
+      "name": "sfc - RetroArch 32 - higan_sfc",
+      "uniqueId": "sfc.ra32.higan_sfc",
       "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO higan_sfc\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -248,8 +248,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - higan_sfc_balanced",
-      "uniqueId": "snes.ra32.higan_sfc_balanced",
+      "name": "sfc - RetroArch 32 - higan_sfc_balanced",
+      "uniqueId": "sfc.ra32.higan_sfc_balanced",
       "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO higan_sfc_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -258,8 +258,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - mednafen_supafaust",
-      "uniqueId": "snes.ra32.mednafen_supafaust",
+      "name": "sfc - RetroArch 32 - mednafen_supafaust",
+      "uniqueId": "sfc.ra32.mednafen_supafaust",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mednafen_supafaust\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -268,8 +268,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - mednafen_snes",
-      "uniqueId": "snes.ra32.mednafen_snes",
+      "name": "sfc - RetroArch 32 - mednafen_snes",
+      "uniqueId": "sfc.ra32.mednafen_snes",
       "description": "Supported extensions: bs, fig, sfc, smc, st.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mednafen_snes\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -278,8 +278,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - snes9x2002",
-      "uniqueId": "snes.ra32.snes9x2002",
+      "name": "sfc - RetroArch 32 - snes9x2002",
+      "uniqueId": "sfc.ra32.snes9x2002",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2002\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -288,8 +288,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - snes9x2005_plus",
-      "uniqueId": "snes.ra32.snes9x2005_plus",
+      "name": "sfc - RetroArch 32 - snes9x2005_plus",
+      "uniqueId": "sfc.ra32.snes9x2005_plus",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2005_plus\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -298,8 +298,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - snes9x2005",
-      "uniqueId": "snes.ra32.snes9x2005",
+      "name": "sfc - RetroArch 32 - snes9x2005",
+      "uniqueId": "sfc.ra32.snes9x2005",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2005\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -308,8 +308,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - snes9x2010",
-      "uniqueId": "snes.ra32.snes9x2010",
+      "name": "sfc - RetroArch 32 - snes9x2010",
+      "uniqueId": "sfc.ra32.snes9x2010",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2010\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -318,8 +318,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes2014_accuracy",
-      "uniqueId": "snes.ra32.bsnes2014_accuracy",
+      "name": "sfc - RetroArch 32 - bsnes2014_accuracy",
+      "uniqueId": "sfc.ra32.bsnes2014_accuracy",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_accuracy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -328,8 +328,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes2014_balanced",
-      "uniqueId": "snes.ra32.bsnes2014_balanced",
+      "name": "sfc - RetroArch 32 - bsnes2014_balanced",
+      "uniqueId": "sfc.ra32.bsnes2014_balanced",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -338,8 +338,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes2014_performance",
-      "uniqueId": "snes.ra32.bsnes2014_performance",
+      "name": "sfc - RetroArch 32 - bsnes2014_performance",
+      "uniqueId": "sfc.ra32.bsnes2014_performance",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_performance\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -348,8 +348,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes_cplusplus98",
-      "uniqueId": "snes.ra32.bsnes_cplusplus98",
+      "name": "sfc - RetroArch 32 - bsnes_cplusplus98",
+      "uniqueId": "sfc.ra32.bsnes_cplusplus98",
       "description": "Supported extensions: sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_cplusplus98\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -358,8 +358,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes",
-      "uniqueId": "snes.ra32.bsnes",
+      "name": "sfc - RetroArch 32 - bsnes",
+      "uniqueId": "sfc.ra32.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -368,8 +368,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes_hd_beta",
-      "uniqueId": "snes.ra32.bsnes_hd_beta",
+      "name": "sfc - RetroArch 32 - bsnes_hd_beta",
+      "uniqueId": "sfc.ra32.bsnes_hd_beta",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_hd_beta\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -378,8 +378,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes_mercury_accuracy",
-      "uniqueId": "snes.ra32.bsnes_mercury_accuracy",
+      "name": "sfc - RetroArch 32 - bsnes_mercury_accuracy",
+      "uniqueId": "sfc.ra32.bsnes_mercury_accuracy",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_accuracy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -388,8 +388,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes_mercury_balanced",
-      "uniqueId": "snes.ra32.bsnes_mercury_balanced",
+      "name": "sfc - RetroArch 32 - bsnes_mercury_balanced",
+      "uniqueId": "sfc.ra32.bsnes_mercury_balanced",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -398,8 +398,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - bsnes_mercury_performance",
-      "uniqueId": "snes.ra32.bsnes_mercury_performance",
+      "name": "sfc - RetroArch 32 - bsnes_mercury_performance",
+      "uniqueId": "sfc.ra32.bsnes_mercury_performance",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_performance\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -408,8 +408,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch 32 - mesen-s",
-      "uniqueId": "snes.ra32.mesen-s",
+      "name": "sfc - RetroArch 32 - mesen-s",
+      "uniqueId": "sfc.ra32.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -418,8 +418,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - snes9x",
-      "uniqueId": "snes.ra.snes9x",
+      "name": "sfc - RetroArch - snes9x",
+      "uniqueId": "sfc.ra.snes9x",
       "description": "Supported extensions: bs, fig, sfc, smc, st, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -428,8 +428,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - higan_sfc",
-      "uniqueId": "snes.ra.higan_sfc",
+      "name": "sfc - RetroArch - higan_sfc",
+      "uniqueId": "sfc.ra.higan_sfc",
       "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO higan_sfc\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -438,8 +438,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - higan_sfc_balanced",
-      "uniqueId": "snes.ra.higan_sfc_balanced",
+      "name": "sfc - RetroArch - higan_sfc_balanced",
+      "uniqueId": "sfc.ra.higan_sfc_balanced",
       "description": "Supported extensions: bml, gb, gbc, rom, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|gb|gbc|rom|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO higan_sfc_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -448,8 +448,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - mednafen_supafaust",
-      "uniqueId": "snes.ra.mednafen_supafaust",
+      "name": "sfc - RetroArch - mednafen_supafaust",
+      "uniqueId": "sfc.ra.mednafen_supafaust",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mednafen_supafaust\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -458,8 +458,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - mednafen_snes",
-      "uniqueId": "snes.ra.mednafen_snes",
+      "name": "sfc - RetroArch - mednafen_snes",
+      "uniqueId": "sfc.ra.mednafen_snes",
       "description": "Supported extensions: bs, fig, sfc, smc, st.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bs|fig|sfc|smc|st|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mednafen_snes\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -468,8 +468,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - snes9x2002",
-      "uniqueId": "snes.ra.snes9x2002",
+      "name": "sfc - RetroArch - snes9x2002",
+      "uniqueId": "sfc.ra.snes9x2002",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2002\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -478,8 +478,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - snes9x2005_plus",
-      "uniqueId": "snes.ra.snes9x2005_plus",
+      "name": "sfc - RetroArch - snes9x2005_plus",
+      "uniqueId": "sfc.ra.snes9x2005_plus",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2005_plus\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -488,8 +488,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - snes9x2005",
-      "uniqueId": "snes.ra.snes9x2005",
+      "name": "sfc - RetroArch - snes9x2005",
+      "uniqueId": "sfc.ra.snes9x2005",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2005\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -498,8 +498,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - snes9x2010",
-      "uniqueId": "snes.ra.snes9x2010",
+      "name": "sfc - RetroArch - snes9x2010",
+      "uniqueId": "sfc.ra.snes9x2010",
       "description": "Supported extensions: bsx, dx2, fig, gd3, gd7, sfc, smc, swc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bsx|dx2|fig|gd3|gd7|sfc|smc|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO snes9x2010\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -508,8 +508,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes2014_accuracy",
-      "uniqueId": "snes.ra.bsnes2014_accuracy",
+      "name": "sfc - RetroArch - bsnes2014_accuracy",
+      "uniqueId": "sfc.ra.bsnes2014_accuracy",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_accuracy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -518,8 +518,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes2014_balanced",
-      "uniqueId": "snes.ra.bsnes2014_balanced",
+      "name": "sfc - RetroArch - bsnes2014_balanced",
+      "uniqueId": "sfc.ra.bsnes2014_balanced",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -528,8 +528,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes2014_performance",
-      "uniqueId": "snes.ra.bsnes2014_performance",
+      "name": "sfc - RetroArch - bsnes2014_performance",
+      "uniqueId": "sfc.ra.bsnes2014_performance",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes2014_performance\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -538,8 +538,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes_cplusplus98",
-      "uniqueId": "snes.ra.bsnes_cplusplus98",
+      "name": "sfc - RetroArch - bsnes_cplusplus98",
+      "uniqueId": "sfc.ra.bsnes_cplusplus98",
       "description": "Supported extensions: sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_cplusplus98\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -548,8 +548,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes",
-      "uniqueId": "snes.ra.bsnes",
+      "name": "sfc - RetroArch - bsnes",
+      "uniqueId": "sfc.ra.bsnes",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -558,8 +558,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes_hd_beta",
-      "uniqueId": "snes.ra.bsnes_hd_beta",
+      "name": "sfc - RetroArch - bsnes_hd_beta",
+      "uniqueId": "sfc.ra.bsnes_hd_beta",
       "description": "Supported extensions: gb, gbc, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_hd_beta\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -568,8 +568,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes_mercury_accuracy",
-      "uniqueId": "snes.ra.bsnes_mercury_accuracy",
+      "name": "sfc - RetroArch - bsnes_mercury_accuracy",
+      "uniqueId": "sfc.ra.bsnes_mercury_accuracy",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_accuracy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -578,8 +578,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes_mercury_balanced",
-      "uniqueId": "snes.ra.bsnes_mercury_balanced",
+      "name": "sfc - RetroArch - bsnes_mercury_balanced",
+      "uniqueId": "sfc.ra.bsnes_mercury_balanced",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_balanced\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -588,8 +588,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - bsnes_mercury_performance",
-      "uniqueId": "snes.ra.bsnes_mercury_performance",
+      "name": "sfc - RetroArch - bsnes_mercury_performance",
+      "uniqueId": "sfc.ra.bsnes_mercury_performance",
       "description": "Supported extensions: bml, sfc, smc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bml|sfc|smc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO bsnes_mercury_performance\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
@@ -598,8 +598,8 @@
       "extra": ""
     },
     {
-      "name": "snes - RetroArch - mesen-s",
-      "uniqueId": "snes.ra.mesen-s",
+      "name": "sfc - RetroArch - mesen-s",
+      "uniqueId": "sfc.ra.mesen-s",
       "description": "Supported extensions: sfc, smc, fig, swc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:sfc|smc|fig|swc|zip|7z)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",

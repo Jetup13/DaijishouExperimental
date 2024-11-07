@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 6,
   "platform": {
-    "name": "TurboGrafx-CD",
+    "name": "NEC TurboGrafx-CD",
     "uniqueId": "tgcd",
     "shortname": "tgcd",
     "description": null,

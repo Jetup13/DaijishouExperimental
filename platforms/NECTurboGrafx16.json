@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 7,
   "platform": {
-    "name": "TurboGrafx-16",
+    "name": "NEC TurboGrafx-16",
     "uniqueId": "tg16",
     "shortname": "tg16",
     "description": null,
