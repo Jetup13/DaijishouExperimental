@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 4,
+  "revisionNumber": 6,
   "platform": {
     "name": "Atari 7800",
     "uniqueId": "atari7800",
