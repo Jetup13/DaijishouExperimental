@@ -2,7 +2,7 @@
   "databaseVersion": 14,
   "revisionNumber": 8,
   "platform": {
-    "name": "GameCube",
+    "name": "Nintendo GameCube",
     "uniqueId": "gc",
     "shortname": "gc",
     "description": null,
@@ -21,7 +21,9 @@
     "screenAspectRatioId": 1,
     "useCustomScreenAspectRatio": false,
     "customScreenAspectRatio": null,
-    "retroAchievementsAlias": null,
+    "retroAchievementsConsoleIdList": [
+      16
+    ],
     "extra": ""
   },
   "playerList": [
