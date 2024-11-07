@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 7,
+  "revisionNumber": 8,
   "platform": {
     "name": "Nintendo Wii",
     "uniqueId": "wii",
@@ -30,7 +30,17 @@
   },
   "playerList": [
     {
-      "name": "gc - Dolphin handheld",
+      "name": "wii - Dolphin (Official)",
+      "uniqueId": "wii.org.dolphinemu.dolphinemu",
+      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
+      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "wii - Dolphin handheld",
       "uniqueId": "wii.org.dolphinemu.handheld",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
@@ -40,7 +50,7 @@
       "extra": ""
     },
     {
-      "name": "wii - Dolphin org.mm.jr fork",
+      "name": "wii - Dolphin Dolphin (MMJR)",
       "uniqueId": "wii.org.mm.jr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
@@ -50,7 +60,7 @@
       "extra": ""
     },
     {
-      "name": "wii - Dolphin org.mm.j fork",
+      "name": "wii - Dolphin (MMJ - weihuoya)",
       "uniqueId": "wii.org.mm.j",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
@@ -60,23 +70,13 @@
       "extra": ""
     },
     {
-      "name": "wii - Dolphin mmjr",
+      "name": "wii - Dolphin (MMJR2)",
       "uniqueId": "wii.org.dolphinemu.mmjr",
       "description": null,
       "acceptedFilenameRegex": "^(.*).(?:ciao|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
       "amStartArguments": "-n org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity\n  -a android.intent.action.VIEW\n  -e AutoStartFile {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": false,
-      "extra": ""
-    },
-    {
-      "name": "wii - org.dolphinemu.dolphinemu",
-      "uniqueId": "wii.org.dolphinemu.dolphinemu",
-      "description": "Supported extensions: ciso, dff, dol, elf, gcm, gcz, iso, tgc, wad, wbfs, rvz.",
-      "acceptedFilenameRegex": "^(.*)\\.(?:ciso|dff|dol|elf|gcm|gcz|iso|tgc|wad|wbfs|rvz)$",
-      "amStartArguments": "-n org.dolphinemu.dolphinemu/.ui.main.MainActivity\n  -a android.intent.action.MAIN\n  -e AutoStartFile {file.uri}",
-      "killPackageProcesses": false,
-      "killPackageProcessesWarning": true,
       "extra": ""
     },
     {

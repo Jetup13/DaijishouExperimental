@@ -440,7 +440,7 @@
       "platformName": "Nintendo GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "NintendoSFC.json",
@@ -482,7 +482,7 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "NintendoWiiU.json",
