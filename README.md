@@ -11,7 +11,9 @@ Experimental repo to test platform json files
 
 > Daijishou > Download > Index URI > Enter the url > Save
 
-```https://raw.githubusercontent.com/Jetup13/DaijishouExperimental/main/platforms/index.json```
+```
+https://raw.githubusercontent.com/Jetup13/DaijishouExperimental/main/platforms/index.json
+```
 
 # How to revert
 
