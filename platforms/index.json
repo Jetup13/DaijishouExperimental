@@ -401,6 +401,13 @@
       "revisionNumber": 8
     },
     {
+      "filename": "NintendoFamicom.json",
+      "platformName": "Nintendo Famicom",
+      "platformShortname": "famicom",
+      "platformUniqueId": "famicom",
+      "revisionNumber": 8
+    },
+    {
       "filename": "NintendoFamicomDiskSystem.json",
       "platformName": "Nintendo Famicom Disk System",
       "platformShortname": "fds",
