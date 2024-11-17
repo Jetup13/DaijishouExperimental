@@ -517,7 +517,7 @@
       "platformName": "PICO-8",
       "platformShortname": "pico8",
       "platformUniqueId": "pico8",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "PalmOS.json",
