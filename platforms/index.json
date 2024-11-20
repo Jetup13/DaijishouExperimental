@@ -447,7 +447,7 @@
       "platformName": "Nintendo GameCube",
       "platformShortname": "gc",
       "platformUniqueId": "gc",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "NintendoSFC.json",
@@ -489,14 +489,14 @@
       "platformName": "Nintendo Wii",
       "platformShortname": "wii",
       "platformUniqueId": "wii",
-      "revisionNumber": 8
+      "revisionNumber": 9
     },
     {
       "filename": "NintendoWiiU.json",
       "platformName": "Nintendo Wii U",
       "platformShortname": "wiiu",
       "platformUniqueId": "wiiu",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "NintendoWiiWare.json",
