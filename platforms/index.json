@@ -251,7 +251,7 @@
       "platformName": "Java Me",
       "platformShortname": "j2me",
       "platformUniqueId": "j2me",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "LowResNX.json",
@@ -699,7 +699,7 @@
       "platformName": "Sony PlayStation Portable",
       "platformShortname": "psp",
       "platformUniqueId": "psp",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "SonyPlayStationPortableMinis.json",
