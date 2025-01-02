@@ -48,14 +48,14 @@
       "platformName": "Arduboy",
       "platformShortname": "arduboy",
       "platformUniqueId": "arduboy",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Atari2600.json",
       "platformName": "Atari 2600",
       "platformShortname": "atari2600",
       "platformUniqueId": "atari2600",
-      "revisionNumber": 6
+      "revisionNumber": 7
     },
     {
       "filename": "Atari5200.json",
@@ -90,7 +90,7 @@
       "platformName": "Atari Lynx",
       "platformShortname": "lynx",
       "platformUniqueId": "lynx",
-      "revisionNumber": 7
+      "revisionNumber": 8
     },
     {
       "filename": "AtariST.json",
@@ -146,7 +146,7 @@
       "platformName": "Cave Story Game Engine",
       "platformShortname": "cavestory",
       "platformUniqueId": "cavestory",
-      "revisionNumber": 3
+      "revisionNumber": 4
     },
     {
       "filename": "Chip8.json",
@@ -496,7 +496,7 @@
       "platformName": "Nintendo Wii U",
       "platformShortname": "wiiu",
       "platformUniqueId": "wiiu",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "NintendoWiiWare.json",
@@ -573,7 +573,7 @@
       "platformName": "ScummVM",
       "platformShortname": "scummvm",
       "platformUniqueId": "scummvm",
-      "revisionNumber": 4
+      "revisionNumber": 5
     },
     {
       "filename": "Sega32X.json",
@@ -601,14 +601,14 @@
       "platformName": "Sega Game Gear",
       "platformShortname": "gamegear",
       "platformUniqueId": "gamegear",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "SegaGenesis.json",
       "platformName": "Sega Genesis",
       "platformShortname": "genesis",
       "platformUniqueId": "genesis",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "SegaGenesisMSU.json",
@@ -622,7 +622,7 @@
       "platformName": "Sega Master System",
       "platformShortname": "master",
       "platformUniqueId": "master",
-      "revisionNumber": 9
+      "revisionNumber": 10
     },
     {
       "filename": "SegaMegadrive.json",

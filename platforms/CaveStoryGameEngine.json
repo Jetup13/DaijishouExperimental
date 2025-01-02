@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 3,
+  "revisionNumber": 4,
   "platform": {
     "name": "Cave Story Game Engine",
     "uniqueId": "cavestory",
@@ -21,7 +21,7 @@
   },
   "playerList": [
     {
-      "name": "nxengine - RetroArch 64 - nxengine",
+      "name": "cavestory - RetroArch 64 - nxengine",
       "uniqueId": "cavestory.ra64.nxengine",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
@@ -31,7 +31,17 @@
       "extra": ""
     },
     {
-      "name": "nxengine - RetroArch 32 - nxengine",
+      "name": "cavestory - RetroArch 64 - drs",
+      "uniqueId": "cavestory.ra64.drs",
+      "description": "Supported extensions: exe.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO doukutsu_rs\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cavestory - RetroArch 32 - nxengine",
       "uniqueId": "cavestory.ra32.nxengine",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
@@ -41,11 +51,31 @@
       "extra": ""
     },
     {
-      "name": "nxengine - RetroArch - nxengine",
+      "name": "cavestory - RetroArch 32 - drs",
+      "uniqueId": "cavestory.ra32.drs",
+      "description": "Supported extensions: exe.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO doukutsu_rs\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cavestory - RetroArch - nxengine",
       "uniqueId": "cavestory.ra.nxengine",
       "description": "Supported extensions: exe.",
       "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
       "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO nxengine\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": true,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "cavestory - RetroArch - drs",
+      "uniqueId": "cavestory.ra.drs",
+      "description": "Supported extensions: exe.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:exe)$",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO doukutsu_rs\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
