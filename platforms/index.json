@@ -107,6 +107,13 @@
       "revisionNumber": 8
     },
     {
+      "filename": "BookReader.json",
+      "platformName": "Book Reader",
+      "platformShortname": "ebook",
+      "platformUniqueId": "ebook",
+      "revisionNumber": 3
+    },
+    {
       "filename": "CPS1.json",
       "platformName": "CP System I",
       "platformShortname": "cps1",
@@ -268,6 +275,13 @@
       "revisionNumber": 7
     },
     {
+      "filename": "MagicDOSBOX.json",
+      "platformName": "Magic DosBox",
+      "platformShortname": "magicdosbox",
+      "platformUniqueId": "magicdosbox",
+      "revisionNumber": 2
+    },
+    {
       "filename": "MagnavoxOdyssey2.json",
       "platformName": "Magnavox Odyssey 2",
       "platformShortname": "odyssey2",
@@ -279,6 +293,13 @@
       "platformName": "Mega Duck",
       "platformShortname": "megaduck",
       "platformUniqueId": "megaduck",
+      "revisionNumber": 2
+    },
+    {
+      "filename": "Moonlight.json",
+      "platformName": "Moonlight Streaming",
+      "platformShortname": "moonlight",
+      "platformUniqueId": "moonlight",
       "revisionNumber": 2
     },
     {
@@ -363,14 +384,14 @@
       "platformName": "Nokia N-Gage",
       "platformShortname": "ngage",
       "platformUniqueId": "ngage",
-      "revisionNumber": 2
+      "revisionNumber": 3
     },
     {
       "filename": "Nintendo3DS.json",
       "platformName": "Nintendo 3DS",
       "platformShortname": "3ds",
       "platformUniqueId": "3ds",
-      "revisionNumber": 11
+      "revisionNumber": 13
     },
     {
       "filename": "Nintendo64.json",
@@ -384,14 +405,14 @@
       "platformName": "Nintendo DS",
       "platformShortname": "nds",
       "platformUniqueId": "nds",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "NintendoDSi.json",
       "platformName": "Nintendo DSi",
       "platformShortname": "ndsi",
       "platformUniqueId": "ndsi",
-      "revisionNumber": 10
+      "revisionNumber": 11
     },
     {
       "filename": "NintendoEntertainmentSystem.json",
@@ -426,21 +447,21 @@
       "platformName": "Nintendo Game Boy",
       "platformShortname": "gb",
       "platformUniqueId": "gb",
-      "revisionNumber": 12
+      "revisionNumber": 13
     },
     {
       "filename": "NintendoGameBoyAdvance.json",
       "platformName": "Nintendo Game Boy Advance",
       "platformShortname": "gba",
       "platformUniqueId": "gba",
-      "revisionNumber": 10
+      "revisionNumber": 12
     },
     {
       "filename": "NintendoGameBoyColor.json",
       "platformName": "Nintendo Game Boy Color",
       "platformShortname": "gbc",
       "platformUniqueId": "gbc",
-      "revisionNumber": 12
+      "revisionNumber": 13
     },
     {
       "filename": "NintendoGameCube.json",
@@ -482,7 +503,7 @@
       "platformName": "Nintendo Switch",
       "platformShortname": "switch",
       "platformUniqueId": "switch",
-      "revisionNumber": 12
+      "revisionNumber": 17
     },
     {
       "filename": "NintendoWii.json",
@@ -503,7 +524,7 @@
       "platformName": "Nintendo WiiWare",
       "platformShortname": "wiiware",
       "platformUniqueId": "wiiware",
-      "revisionNumber": 1
+      "revisionNumber": 3
     },
     {
       "filename": "Oric.json",
@@ -695,6 +716,13 @@
       "revisionNumber": 8
     },
     {
+      "filename": "SonyPlayStation3.json",
+      "platformName": "Sony PlayStation 3",
+      "platformShortname": "ps3",
+      "platformUniqueId": "ps3",
+      "revisionNumber": 1
+    },
+    {
       "filename": "SonyPlayStationPortable.json",
       "platformName": "Sony PlayStation Portable",
       "platformShortname": "psp",
@@ -707,6 +735,13 @@
       "platformShortname": "pspminis",
       "platformUniqueId": "pspminis",
       "revisionNumber": 3
+    },
+    {
+      "filename": "Steam.json",
+      "platformName": "Steam",
+      "platformShortname": "steam",
+      "platformUniqueId": "steam",
+      "revisionNumber": 2
     },
     {
       "filename": "SuperCassetteVision.json",
@@ -790,7 +825,7 @@
       "platformName": "Windows",
       "platformShortname": "windows",
       "platformUniqueId": "windows",
-      "revisionNumber": 3
+      "revisionNumber": 6
     },
     {
       "filename": "WonderSwan.json",
@@ -811,6 +846,13 @@
       "platformName": "Xbox",
       "platformShortname": "xbox",
       "platformUniqueId": "xbox",
+      "revisionNumber": 1
+    },
+    {
+      "filename": "XboxGamePass.json",
+      "platformName": "XBox Game Pass",
+      "platformShortname": "xcloud",
+      "platformUniqueId": "xcloud",
       "revisionNumber": 1
     },
     {
