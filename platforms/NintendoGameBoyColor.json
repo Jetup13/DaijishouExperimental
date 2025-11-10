@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 13,
+  "revisionNumber": 14,
   "platform": {
     "name": "Nintendo Game Boy Color",
     "uniqueId": "gbc",
@@ -42,6 +42,16 @@
       "description": "Supported extensions: gb, gbc, gbs, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|gbs|zip|7z)$",
       "amStartArguments": "-n it.dbtecno.pizzaboypro/it.dbtecno.pizzaboypro.MainActivity\n  -e rom_uri {file.path}\n  --activity-clear-task\n  --activity-clear-top",
+      "killPackageProcesses": false,
+      "killPackageProcessesWarning": true,
+      "extra": ""
+    },
+    {
+      "name": "gbc - Linkboy",
+      "uniqueId": "gbc.com.pixelrespawn.linkboy",
+      "description": "Support extensions: bin, cgb, dmg, gb, gbc, gbs, rom, sgb.",
+      "acceptedFilenameRegex": "^(.*)\\.(?:bin|cgb|dmg|gb|gbc|gbs|rom|sgb)$",
+      "amStartArguments": "-n com.pixelrespawn.linkboy/.EmulatorActivity\n  -a android.intent.action.VIEW\n  -d {file.uri}",
       "killPackageProcesses": false,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -101,7 +111,7 @@
       "uniqueId": "gbc.ra64.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gambatte\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gambatte\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -111,7 +121,7 @@
       "uniqueId": "gbc.ra64.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gearboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gearboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -121,7 +131,7 @@
       "uniqueId": "gbc.ra64.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO sameboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO sameboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -131,7 +141,7 @@
       "uniqueId": "gbc.ra64.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO tgbdual\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO tgbdual\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -141,7 +151,7 @@
       "uniqueId": "gbc.ra64.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO DoubleCherryGB\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO DoubleCherryGB\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -151,7 +161,7 @@
       "uniqueId": "gbc.ra64.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -161,7 +171,7 @@
       "uniqueId": "gbc.ra32.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gambatte\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gambatte\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -171,7 +181,7 @@
       "uniqueId": "gbc.ra32.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gearboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gearboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -181,7 +191,7 @@
       "uniqueId": "gbc.ra32.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO sameboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO sameboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -191,7 +201,7 @@
       "uniqueId": "gbc.ra32.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO tgbdual\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO tgbdual\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -201,7 +211,7 @@
       "uniqueId": "gbc.ra32.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO DoubleCherryGB\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO DoubleCherryGB\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -211,7 +221,7 @@
       "uniqueId": "gbc.ra32.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -221,7 +231,7 @@
       "uniqueId": "gbc.ra.gambatte",
       "description": "Supported extensions: dmg, gb, gbc, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dmg|gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gambatte\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gambatte\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -231,7 +241,7 @@
       "uniqueId": "gbc.ra.gearboy",
       "description": "Supported extensions: cgb, dmg, gb, gbc, sgb.",
       "acceptedFilenameRegex": "^(.*)\\.(?:cgb|dmg|gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gearboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO gearboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -241,7 +251,7 @@
       "uniqueId": "gbc.ra.sameboy",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO sameboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO sameboy\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -251,7 +261,7 @@
       "uniqueId": "gbc.ra.tgbdual",
       "description": "Supported extensions: gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO tgbdual\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO tgbdual\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -261,7 +271,7 @@
       "uniqueId": "gbc.ra.DoubleCherryGB",
       "description": "Supported extensions: dmg, cgb, gb, gbc, sgb, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|dmg|cgb|sgb|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO DoubleCherryGB\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO DoubleCherryGB\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -271,7 +281,7 @@
       "uniqueId": "gbc.ra.mesen-s",
       "description": "Supported extensions: gb, gbc.",
       "acceptedFilenameRegex": "^(.*)\\.(?:gb|gbc|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO mesen-s\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

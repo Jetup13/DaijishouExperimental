@@ -1,8 +1,8 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 8,
+  "revisionNumber": 7,
   "platform": {
-    "name": "Atomiswave",
+    "name": "Sammy Atomiswave",
     "uniqueId": "atomiswave",
     "shortname": "atomiswave",
     "description": null,
@@ -70,7 +70,7 @@
       "uniqueId": "atomiswave.ra64.flycast",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO flycast\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO flycast\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -80,7 +80,7 @@
       "uniqueId": "atomiswave.ra32.flycast",
       "description": "Supported extensions: 7z, chd, dat, lst, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO flycast\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO flycast\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -90,7 +90,7 @@
       "uniqueId": "atomiswave.ra.flycast",
       "description": "Supported extensions: cdi, gdi, chd, cue, bin, elf, zip, 7z, lst, dat, m3u, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:7z|chd|dat|lst|zip)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO flycast\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO flycast\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 6,
+  "revisionNumber": 7,
   "platform": {
     "name": "ZX Spectrum",
     "uniqueId": "zxspectrum",
@@ -31,7 +31,7 @@
       "uniqueId": "zxspectrum.ra64.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO fuse\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO fuse\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -41,7 +41,7 @@
       "uniqueId": "zxspectrum.ra32.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO fuse\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO fuse\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -51,7 +51,7 @@
       "uniqueId": "zxspectrum.ra.fuse",
       "description": "Supported extensions: dsk, rzx, scl, tap, trd, tzx, z80, zip, 7z.",
       "acceptedFilenameRegex": "^(.*)\\.(?:dsk|rzx|scl|tap|trd|tzx|z80|zip|7z)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO fuse\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO fuse\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""

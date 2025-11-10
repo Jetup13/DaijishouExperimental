@@ -1,6 +1,6 @@
 {
   "databaseVersion": 14,
-  "revisionNumber": 5,
+  "revisionNumber": 6,
   "platform": {
     "name": "DOS",
     "uniqueId": "dos",
@@ -8,7 +8,7 @@
     "description": null,
     "acceptedFilenameRegex": "^(?!(?:\\._|\\.).*).*$",
     "scraperSourceList": [
-      "LIBRETRO:DOS", 
+      "LIBRETRO:DOS",
       "DSESS:BOX_ART:TAGS(scraperKeyword):https://openretro.org/browse/dos?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=img.game-cover%5Balt%3D%22front+image%22%5D&dsess_attribute=src&dsess_extractor=%5E%28%5B%5E%3F%5D%2A%29%3F.%2A.%2A",
       "DSESS:GENRES:TAGS(scraperKeyword):https://openretro.org/browse/dos?q=%7BscraperKeyword%7D&dsess_target_site_selector=div.game_box+a&dsess_target_site=%5E.%2Agame.%2A&&dsess_selector=div.game-info-row%3Anth-child%289%29"
     ],
@@ -29,7 +29,7 @@
       "uniqueId": "dos.ra64.dosbox_pure",
       "description": "Supported extensions: bat, com, cue, dosz, exe, ima, img, ins, iso, m3u, m3u8, vhd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|cue|dosz|exe|ima|img|ins|iso|m3u|m3u8|vhd|zip)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_pure\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_pure\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -39,7 +39,7 @@
       "uniqueId": "dos.ra64.dosbox_svn",
       "description": "Supported extensions: bat, com, conf, cue, exe, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|conf|cue|exe|iso)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_svn\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_svn\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -49,7 +49,7 @@
       "uniqueId": "dos.ra64.dosbox_core",
       "description": "Supported extensions: bat, com, conf, cue, exe, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|conf|cue|exe|iso)$",
-      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_core\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_core\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.aarch64/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -59,7 +59,7 @@
       "uniqueId": "dos.ra32.dosbox_pure",
       "description": "Supported extensions: bat, com, cue, dosz, exe, ima, img, ins, iso, m3u, m3u8, vhd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|cue|dosz|exe|ima|img|ins|iso|m3u|m3u8|vhd|zip)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_pure\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_pure\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -69,7 +69,7 @@
       "uniqueId": "dos.ra32.dosbox_svn",
       "description": "Supported extensions: bat, com, conf, cue, exe, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|conf|cue|exe|iso)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_svn\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_svn\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -79,7 +79,7 @@
       "uniqueId": "dos.ra32.dosbox_core",
       "description": "Supported extensions: bat, com, conf, cue, exe, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|conf|cue|exe|iso)$",
-      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_core\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_core\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch.ra32/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -89,7 +89,7 @@
       "uniqueId": "dos.ra.dosbox_pure",
       "description": "Supported extensions: bat, com, cue, dosz, exe, ima, img, ins, iso, m3u, m3u8, vhd, zip.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|cue|dosz|exe|ima|img|ins|iso|m3u|m3u8|vhd|zip)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_pure\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_pure\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -99,7 +99,7 @@
       "uniqueId": "dos.ra.dosbox_svn",
       "description": "Supported extensions: bat, com, conf, cue, exe, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|conf|cue|exe|iso)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_svn\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_svn\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
@@ -109,7 +109,7 @@
       "uniqueId": "dos.ra.dosbox_core",
       "description": "Supported extensions: bat, com, conf, cue, exe, iso.",
       "acceptedFilenameRegex": "^(.*)\\.(?:bat|com|conf|cue|exe|iso)$",
-      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_core\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n  --activity-clear-task\n  --activity-clear-top",
+      "amStartArguments": "-n com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture\n  -e ROM {file.path}\n  -e LIBRETRO dosbox_core\n  -e CONFIGFILE /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg\n --activity-clear-task\n  --activity-clear-top",
       "killPackageProcesses": true,
       "killPackageProcessesWarning": true,
       "extra": ""
